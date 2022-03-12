@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+			table {
+			  font-family: arial, sans-serif;
+			  border-collapse: collapse;
+			  width: 100%;
+			}
+
+			td, th {
+			  border: 1px solid #dddddd;
+			  text-align: left;
+			  padding: 8px;
+			}
+    	</style>    	 
+    </head>
+    <body>
+    	<table>
+    		<tr>
+	    		<td onclick="handleClick(numberA)">
+	        		<span id="div1"></span>
+	    		</td>
+	    		<td onclick="handleClick(numberB)">
+        			<span id="div2"/></span>
+	    		</td>    			
+    		</tr>
+    		<tr>
+	    		<td onclick="handleClick(numberC)">    			
+		            <span id="div3"></span>
+	    		</td>    		
+	    		<td  onclick="handleClick(numberD)">
+		            <span id="div4"></span>
+	    		</td>    		
+    		</tr>
+    	</table>
+    	<button onclick="reset()">Reset</button>
+
+		<script type="text/javascript" src="game.js"></script>  
+    </body>
+</html>
